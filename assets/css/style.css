@@ -290,3 +290,71 @@ h1 img{
   background-color: #fff;
   color: #cc0e00;
 }
+
+/* IT Automation styling */
+
+.itautomation h3 {
+  width: 50%;
+  padding-top: 55px; 
+  margin: 0 auto;
+  color: #222;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.itautomation .wrapper > p {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0 40px;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.itauto-main-ul > li {
+  width: 24.3%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.itauto-sub-ul {
+  width: 90%;
+}
+
+.itauto-sub-ul h4 {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  color: #222;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.itauto-sub-ul p {
+  padding: 25px 0;
+  color: #777;
+  font-size: 14px;
+}
+
+.howansibleworks-link {
+  border-bottom: 1px solid transparent;
+  float: right;
+  color: #337fc7;
+  font-size: 12px;
+  transition: all .5s linear;
+}
+
+.howansibleworks-link:hover {
+  border-bottom: 1px solid #337fc7;
+}
+
+.ansible-prod-int-img {
+  padding-top: 80px; 
+}
+
+.ansible-prod-int-img img {
+  width: 100%;
+}
+
