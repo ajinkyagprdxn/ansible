@@ -464,3 +464,148 @@ h1 img{
 .extend-power-sub-ul .expow-bottom-link:hover {
   border-bottom: 1px solid #43c0f8;
 }
+
+/* autoresmaps(Automate Resources Maps) */
+
+.autoresmaps h3 {
+  padding-top: 55px; 
+  color: #222;
+  font-size: 16px;
+}
+
+.blueline {
+  display: inline-block;
+  width: 33px;
+  height: 2px;
+  margin: 15px 0;
+  background-color: #43c0f8;
+}
+
+.automate-links-ul li {
+  width: 31%;
+  padding: 10px 2.8% 10px 0;
+  display: inline-block;
+}
+
+.automate-links-ul li:nth-child(3),
+.automate-links-ul li:nth-child(6) { padding-right: 0; }
+
+.automate-links-ul li a {
+  width: 100%;
+  padding: 20px 0;
+  border: 1px solid #ccc;
+  display: inline-block;
+  background-color: transparent;
+  color: #3079c5;
+  font-size: 13px;
+  text-align: center;
+  transition: all .6s linear;
+}
+
+.automate-links-ul li a:hover {
+  background-color: #3079c5;
+  color: #fff;
+}
+
+/* RESOURCES */
+
+.resources-tabs-ul li img { 
+  width: 80%; 
+  margin: 0 auto;
+  display: block;
+}
+
+.resources-tabs-ul > li {
+  width: 31%;
+  padding: 10px 2.8% 10px 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.resources-tabs-ul li:nth-child(3) { padding-right: 0; }
+
+.res-forme-ul,
+.res-formyteam-ul,
+.res-formyorg-ul {
+  padding: 20px 7% 0;
+  vertical-align: top;
+}
+
+.res-forme-ul { background-color: #2b98a0; }
+
+.res-formyteam-ul { background-color: #308db9;}
+
+.res-formyorg-ul { background-color: #333; }
+
+.resources-tabs-ul h4 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.resources-tabs-ul p {
+  padding: 20px 0;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.resources-tabs-ul .res-getlink {
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  margin-bottom: 50px;
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  transition: all .5s linear;
+}
+
+.res-forme-ul .res-getlink:hover {
+  background-color: #fff;
+  color: #2b98a0;
+}
+
+.res-formyteam-ul .res-getlink:hover {
+  background-color: #fff;
+  color: #308db9;
+}
+
+.res-formyorg-ul .res-getlink:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* web training map */
+
+.web-training-maps-ul {
+  margin-top: 50px;
+}
+
+.web-training-maps-ul > li {
+  width: 31%;
+  padding: 10px 2.8% 10px 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.web-training-maps-ul li:nth-child(3) { padding-right: 0; }
+
+.arrowinfo-ul {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.arrowinfo-li { 
+  display: inline-block; 
+  vertical-align: top;
+}
+
+.arrowinfo-li:first-child {
+  width: 7%;
+}
+
+.arrowinfo-li:last-child {
+  width: 91%;
+}
