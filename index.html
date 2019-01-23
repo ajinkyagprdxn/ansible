@@ -10,6 +10,9 @@
     <link rel="shortcut icon" href="favicon.ico" />	
     <!-- Adding reference to font awesome -->
     <link rel="stylesheet" href="assets/vendor/font/fontawesome-all.css">
+    <!-- slick slider links -->
+    <link rel="stylesheet" media="screen" href="assets/vendor/slick/slick.css">
+    <link rel="stylesheet" media="screen" href="assets/vendor/slick/slick-theme.css">
     <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
     <link rel="stylesheet" media="screen" href="assets/css/style.css">
   </head>
@@ -30,16 +33,16 @@
             <nav id="nav">
               <ul class="nav-ul">
                 <li class="nav-li">
-                  <a href="#FIXME" title="OVERVIEW">OVERVIEW</a>
+                  <a href="#FIXME" title="OVERVIEW">OVERVIEW <span class="fas fa-angle-down"></span></a>
                 </li>
                 <li class="nav-li">
-                  <a href="#FIXME" title="PRODUCTS">PRODUCTS</a>
+                  <a href="#FIXME" title="PRODUCTS">PRODUCTS <span class="fas fa-angle-down"></span></a>
                 </li>
                 <li class="nav-li">
-                  <a href="#FIXME" title="LEARN">LEARN</a>
+                  <a href="#FIXME" title="LEARN">LEARN <span class="fas fa-angle-down"></span></a>
                 </li>
                 <li class="nav-li">
-                  <a href="#FIXME" title="COMMUNITY">COMMUNITY</a>
+                  <a href="#FIXME" title="COMMUNITY">COMMUNITY <span class="fas fa-angle-down"></span></a>
                 </li>
                 <li class="nav-li">
                   <a href="#FIXME" title="TRY ANSIBLE TOWER">TRY ANSIBLE TOWER</a>
@@ -54,24 +57,27 @@
       <main>
         <!-- start banner section -->
         <div class="banner">
-          <div class="wrapper">
-            <div class="bannertext">
-              <h2>Automation for everyone</h2>
-              <p>Simplify work, Break down silos. Speed transformation.</p>
-              <a href="#FIXME" class="getstarted-btn">GET STARTED</a>
-              <a href="#FIXME" class="whyansible-btn">WHY ANSIBLE</a>
-            </div>
+          <div class="slider">            
             <ul class="slider1">
               <li class="imgs">
                 <img src="assets/images/bannerblue.png" alt="Ansible banner">
+                <div class="wrapper">
+                  <div class="bannertext">
+                    <h2>Automation for everyone</h2>
+                    <p>Simplify work, Break down silos. Speed transformation.</p>
+                    <a href="#FIXME" class="getstarted-btn">GET STARTED ></a>
+                    <a href="#FIXME" class="whyansible-btn">WHY ANSIBLE?</a>
+                  </div>
+                </div>                
               </li>
               <li class="imgs">
                 <img src="assets/images/bannergreen.png" alt="Ansible banner">
               </li>
               <li class="imgs">
                 <img src="assets/images/banneryellow.png" alt="Ansible banner">
-              </li>            
+              </li>
             </ul>
+            
           </div>
         </div>
         <!-- end of banner section -->     
@@ -80,52 +86,53 @@
           <div class="wrapper">
             <h3>Simple, agentless IT automation that anyone can use</h3>
             <p>Ansible is a universal language, unraveling the mystery of how work gets done. Turn tough tasks into repeatable playbooks. Roll out enterprise-wide protocols with the push of a button. Give your team the tools to automate, solve, and share.</p>
-          </div>
-          <ul class="itauto-main-ul">
-            <li>
-              <ul class="itauto-sub-ul">
-                <li>
-                  <h4>Automate</h4>
-                </li>
-                <li>
-                  <p>Deploy apps. Manage systems. Crush complexity.</p>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <ul class="itauto-sub-ul">
-                <li>
-                  <h4>Accelerate</h4>
-                </li>
-                <li>
-                  <p>Solve problems once and share the results with everyone.</p>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <ul class="itauto-sub-ul">
-                <li>
-                  <h4>Collaborate</h4>
-                </li>
-                <li>
-                  <p>Break down silos, create a culture of automation.</p>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <ul class="itauto-sub-ul">
-                <li>
-                  <h4>Integrate</h4>
-                </li>
-                <li>
-                  <p>Automate the technologies you already use.</p>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <a href="#FIXME" class="howansibleworks-link" title="HOW ANSIBLE WORKS">HOW ANSIBLE WORKS</a>
-          <div class="ansible-prod-int-img">
-            <img src="assets/images/ansible-product-interface_1.webp" alt="Ansible Product Interface">     
+          
+            <ul class="itauto-main-ul">
+              <li>
+                <ul class="itauto-sub-ul">
+                  <li>
+                    <h4>Automate</h4>
+                  </li>
+                  <li>
+                    <p>Deploy apps. Manage systems. Crush complexity.</p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="itauto-sub-ul">
+                  <li>
+                    <h4>Accelerate</h4>
+                  </li>
+                  <li>
+                    <p>Solve problems once and share the results with everyone.</p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="itauto-sub-ul">
+                  <li>
+                    <h4>Collaborate</h4>
+                  </li>
+                  <li>
+                    <p>Break down silos, create a culture of automation.</p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="itauto-sub-ul">
+                  <li>
+                    <h4>Integrate</h4>
+                  </li>
+                  <li>
+                    <p>Automate the technologies you already use.</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <a href="#FIXME" class="howansibleworks-link" title="HOW ANSIBLE WORKS">HOW ANSIBLE WORKS</a>
+            <div class="ansible-prod-int-img">
+              <img src="assets/images/ansible-product-interface_1.webp" alt="Ansible Product Interface">     
+            </div>
           </div>
         </div>
         <!-- end of IT Automation section -->
@@ -664,6 +671,7 @@
       <!-- end of footer -->
     </div>
     <script src="assets/vendor/jquery-1.8.3.min.js"></script>
+    <script src="assets/vendor/slick/slick.min.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
   </html>

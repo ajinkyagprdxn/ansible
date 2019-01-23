@@ -158,3 +158,135 @@
 
  /* ======= Your styling goes below ======= */
 
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+*,a,p {
+  list-style-type: none;  
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+header{
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+h1 {
+  width: 15%;
+  padding-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1 img{
+  width: 100%;
+  max-width: 133px;  
+}
+
+.hamburger {
+  padding-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+
+.hamburger .nav-li {
+  padding: 5px 15px;
+  display: inline-block;
+}
+
+.nav-li:last-child {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  vertical-align: middle;
+}
+
+.nav-li:last-child::after {
+  content: '';   
+}
+
+.nav-li a {
+  border-bottom: 2px solid transparent;
+  color: #fff;
+  font-size: 12px;
+  transition: all .5s linear;
+}
+
+.nav-li a:hover {
+  border-bottom: 2px solid #f00;
+  color: #f00;
+}
+
+.slider1 li img { width: 100%; }
+
+.dot {
+  position: absolute;
+  bottom: 40px;
+  border: 1px solid #3aabd9;
+  border-radius: 50%;
+  color: #b3c3c9;
+}
+
+.slick-active .dot { color: #3aabd9; }
+.dot:hover { color: #3aabd9; }
+
+.imgs {
+  position: relative;
+}
+
+.bannertext {
+  margin-left: 1%;
+  position: absolute;
+  top: 50%;  
+  transform: translateY(-50%);
+}
+
+.bannertext h2 {
+  color: #fff;
+  font-size: 31px;
+  font-weight: 700;
+}
+
+.bannertext p {
+  margin: 20px 0 40px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.bannertext .getstarted-btn,
+.bannertext .whyansible-btn {
+  padding: 10px 20px;  
+  font-size: 12px;
+  font-weight: 700;
+  transition: all .5s linear;
+}
+
+.bannertext .getstarted-btn {
+  border: 1px solid #cc0e00;
+  background-color: #cc0e00;
+  color: #fff;
+}
+
+.bannertext .getstarted-btn:hover {
+  border: 1px solid #cc0e00;
+  background-color: #fff;
+  color: #cc0e00;
+}
+
+.bannertext .whyansible-btn {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.bannertext .whyansible-btn:hover {
+  border: 1px solid #cc0e00;
+  background-color: #fff;
+  color: #cc0e00;
+}
