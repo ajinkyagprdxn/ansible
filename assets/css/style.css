@@ -467,6 +467,9 @@ h1 img{
 
 /* autoresmaps(Automate Resources Maps) */
 
+.autoresmaps .wrapper {
+  padding-bottom: 66px;
+}
 .autoresmaps h3 {
   padding-top: 55px; 
   color: #222;
@@ -608,4 +611,59 @@ h1 img{
 
 .arrowinfo-li:last-child {
   width: 91%;
+}
+
+.blacktext,
+.greytext {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.blacktext { color: #222; }
+
+.greytext { color: #777; }
+
+.mapsec-blue-link {
+  margin-left: 5%;
+}
+
+.webtrain-ul .arrowinfo-li{
+  padding-bottom: 30px;
+}
+
+.upevents-ul .arrowinfo-li{
+  padding-bottom: 30px;
+}
+
+.press-ul .arrowinfo-li{
+  padding-bottom: 10px;
+}
+
+.press-ul .blacktext {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.mapsec-blue-link {
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+  color: #317bc5;
+  font-size: 13px;
+  transition: all .5s linear;
+}
+
+.mapsec-blue-link:hover {
+border-bottom: 1px solid #317bc5;
+}
+
+.webtrain-ul  .mapsec-blue-link  {
+  padding-top: 0px;
+}
+
+.upevents-ul .mapsec-blue-link {
+  padding-top: 56px;
+}
+
+.press-ul  .mapsec-blue-link {
+  padding-top: 162px;
 }
