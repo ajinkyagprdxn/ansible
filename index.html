@@ -14,6 +14,7 @@
     <link rel="stylesheet" media="screen" href="assets/vendor/slick/slick.css">
     <link rel="stylesheet" media="screen" href="assets/vendor/slick/slick-theme.css">
     <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+    <link rel="stylesheet" media="screen" href="assets/vendor/lightbox2-master/dist/css/lightbox.min.css">
     <link rel="stylesheet" media="screen" href="assets/css/style.css">
   </head>
   <body>
@@ -131,7 +132,9 @@
             </ul>
             <a href="#FIXME" class="howansibleworks-link" title="HOW ANSIBLE WORKS">HOW ANSIBLE WORKS ></a>
             <div class="ansible-prod-int-img">
-              <img src="assets/images/ansible-product-interface_1.webp" alt="Ansible Product Interface">     
+              <a href="assets/images/ansible-product-interface_1.webp" data-lightbox="mygallery" data-title="Ansible Product Interface">
+                <img src="assets/images/ansible-product-interface_1.webp" alt="Ansible Product Interface">
+              </a>              
             </div>
           </div>
         </div>
@@ -229,7 +232,9 @@
                     <a href="#FIXME" class="res-getlink" title="GET THE WHITEPAPER">GET THE WHITEPAPER</a>
                   </li>
                   <li>
-                    <img src="assets/images/whitepaper_ansible-in-depth.webp" alt="Ansible in depth"/>
+                    <a href="assets/images/whitepaper_ansible-in-depth.webp" data-lightbox="resources" data-title="ANSIBLE IN DEPTH">
+                      <img src="assets/images/whitepaper_ansible-in-depth.webp" alt="Ansible in depth" />
+                    </a>                    
                   </li>
                 </ul>
               </li>
@@ -244,10 +249,12 @@
                     </p>
                   </li>
                   <li>
-                    <a href="#FIXME" class="res-getlink" title="GET THE WHITEPAPER">GET THE E-BOOK</a>
+                    <a href="#FIXME" class="res-getlink" title="GET THE E-BOOK">GET THE E-BOOK</a>
                   </li>
                   <li>
-                    <img src="assets/images/ebook_get-started-with-rh-ansible-tower.webp" alt="Get started with RED HAT Ansible Tower" />
+                    <a href="assets/images/ebook_get-started-with-rh-ansible-tower.webp" data-lightbox="resources" data-title="RED HAT ANSIBLE TOWER">
+                      <img src="assets/images/ebook_get-started-with-rh-ansible-tower.webp" alt="Get started with RED HAT Ansible Tower" />
+                    </a>                    
                   </li>
                 </ul>
               </li>
@@ -265,7 +272,9 @@
                     <a href="#FIXME" class="res-getlink" title="GET THE REPORT">GET THE REPORT</a>
                   </li>
                   <li>
-                    <img src="assets/images/report_total-economic-impact-of-rh-ansible-tower.webp" alt="Ansible economic impact" />
+                    <a href="assets/images/report_total-economic-impact-of-rh-ansible-tower.webp" data-lightbox="resources" data-title="ANSIBLE ECONOMIC IMPACT">
+                      <img src="assets/images/report_total-economic-impact-of-rh-ansible-tower.webp" alt="Ansible economic impact" />
+                    </a>                    
                   </li>
                 </ul>
               </li>
@@ -345,8 +354,20 @@
                           <li>
                             <p class="blacktext">Ansible Automation Technical Workshop</p>
                           </li>
-                          <li>                            
-                            <p class="greytext"><span class="fas fa-map-marker-alt"></span> Nashville, TN</p>
+                          <li>
+                            <div class="Lightbox-data">
+                              <div class="opendata">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412184.0480746719!2d-87.06612470048995!3d36.18631242500918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8864ec3213eb903d%3A0x7d3fb9d0a1e9daa0!2sNashville%2C+TN%2C+USA!5e0!3m2!1sen!2sin!4v1548317816728"
+                                  width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <h2>Category Map</h2>
+                                <h3>Place: Nashville, Tn</h3>
+                                <p class="greytext imgmod"><span class="fas fa-map-marker-alt"></span> Nashville, TN</p>                                
+                              </div>
+                              <div class="modalImage" id="openMod">
+                                <span class="close" id="closebtn">&times;</span>
+                                <div id="modDisplay"></div>
+                              </div>
+                            </div>
                             <p class="greytext"><span class="fas fa-gift"></span> Dec 11, 2018</p>
                           </li>
                         </ul>
@@ -362,7 +383,15 @@
                             <p class="blacktext">Ansible Automation Technical Workshop</p>
                           </li>
                           <li>
-                            <p class="greytext"><span class="fas fa-map-marker-alt"></span> New York City, NY</p>
+                            <div class="Lightbox-data">
+                              <div class="opendata">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3156706536!2d-74.26055748786443!3d40.69714774429399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1548325773538"
+                                  width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <h2>Category Map</h2>
+                                <h3>Place: New York City, NY</h3>
+                                <p class="greytext imgmod"><span class="fas fa-map-marker-alt"></span> New York City, NY</p>
+                              </div>                              
+                            </div>
                             <p class="greytext"><span class="fas fa-gift"></span> Jan 10, 2019</p>
                           </li>
                         </ul>
@@ -676,6 +705,7 @@
       </footer>
       <!-- end of footer -->
     </div>
+    <script src="assets/vendor/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
     <script src="assets/vendor/jquery-1.8.3.min.js"></script>
     <script src="assets/vendor/slick/slick.min.js"></script>
     <script src="assets/js/script.js"></script>
