@@ -160,6 +160,7 @@
 
 .wrapper {
   width: 70%;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -669,10 +670,11 @@ border-bottom: 1px solid #317bc5;
 
 /* from blog styling */
 
-.fromblog {
+.fromblog {  
   height: 440px;
   background: url(../images/fromblog-banner.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .fromblog h3 {
@@ -979,12 +981,16 @@ iframe { width: 0; height: 0; }
 
  }
 
-#modDisplay h2 { 
+#modDisplay .maph2,
+#modDisplay .maph3 { 
+  padding-top: 20px;
   display: block;
-  font-size: 18px;  
   color: #fff; 
   text-align: center;
 }
+
+#modDisplay .maph2 { font-size: 22px; }
+#modDisplay .maph3 { font-size: 18px; }
 
 #modDisplay h3 { 
   display: block;

@@ -11,33 +11,30 @@ $(document).ready(function () {
         }
     });
 
-    var disp = document.getElementById("openMod");
+    var disp = $("#openMod");
     var bigdisp = $("#modDisplay");
-
     var bodyh = $("body");
-
-    $("#closebtn").click(function () {
-        closefn();
-    });
-
     var open = $(".opendata");
 
     for (var i = 0; i < open.length; i++) {
-        open[i].addEventListener("click", function (e) {
-            disp.classList.replace('modalImage', 'openModal');
+        open[i].addEventListener("click", function () {
+            disp.addClass('openModal').removeClass('modalImage');
             bigdisp.html(this.innerHTML);
             bodyh.addClass("bodytemp");
         });
     }
 
-    bigdisp.click(function (event) {
-        event.stopPropagation();
+    bigdisp.parent().click(function () {
+        close();
     });
 
-    disp.addEventListener("click", closefn3);
-    function closefn3() {
-        disp.classList.replace('openModal', 'modalImage');
-        bodyh.classList.remove("bodytemp");
-    }
-});
+    $("#closebtn").click(function () {
+        close();
+    });
 
+    function close() {
+        disp.addClass('modalImage').removeClass('openModal');
+        bodyh.removeClass("bodytemp");
+    }
+
+});

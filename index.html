@@ -1,713 +1,725 @@
-  <!doctype html>
-  <!-- If multi-language site, reconsider usage of html lang declaration here. -->
-  <html lang="en"> 
-  <head>
-    <meta charset="utf-8">
-    <!-- Setting the viewport for Media Query -->
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>RED HAT ANSIBLE</title>
-    <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
-    <link rel="shortcut icon" href="favicon.ico" />	
-    <!-- Adding reference to font awesome -->
-    <link rel="stylesheet" href="assets/vendor/font/fontawesome-all.css">
-    <!-- slick slider links -->
-    <link rel="stylesheet" media="screen" href="assets/vendor/slick/slick.css">
-    <link rel="stylesheet" media="screen" href="assets/vendor/slick/slick-theme.css">
-    <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
-    <link rel="stylesheet" media="screen" href="assets/vendor/lightbox2-master/dist/css/lightbox.min.css">
-    <link rel="stylesheet" media="screen" href="assets/css/style.css">
-  </head>
-  <body>
-    <div class="container">
-      <!-- Start of the header -->
-      <header>
+<!doctype html>
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Setting the viewport for Media Query -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>RED HAT ANSIBLE</title>
+  <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link rel="shortcut icon" href="favicon.ico" />
+  <!-- Adding reference to font awesome -->
+  <link rel="stylesheet" href="assets/vendor/font/fontawesome-all.css">
+  <!-- slick slider links -->
+  <link rel="stylesheet" media="screen" href="assets/vendor/slick/slick.css">
+  <link rel="stylesheet" media="screen" href="assets/vendor/slick/slick-theme.css">
+  <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+  <link rel="stylesheet" media="screen" href="assets/vendor/lightbox2-master/dist/css/lightbox.min.css">
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Start of the header -->
+    <header>
+      <div class="wrapper">
+        <h1>
+          <a href="index.html" title="Red Hat Ansible">
+            <img src="assets/images/red-hat-ansible.svg" alt="ANSIBLE">
+          </a>
+        </h1>
+        <div class="hamburger" id="hamfull">
+          <a href="#FIXME" title="Menu" class="hamburger-btn" id="hamburger-btn">
+            <span class="hambar"></span>
+          </a>
+          <nav id="nav">
+            <ul class="nav-ul">
+              <li class="nav-li">
+                <a href="#FIXME" title="OVERVIEW">OVERVIEW <span class="fas fa-angle-down"></span></a>
+              </li>
+              <li class="nav-li">
+                <a href="#FIXME" title="PRODUCTS">PRODUCTS <span class="fas fa-angle-down"></span></a>
+              </li>
+              <li class="nav-li">
+                <a href="#FIXME" title="LEARN">LEARN <span class="fas fa-angle-down"></span></a>
+              </li>
+              <li class="nav-li">
+                <a href="#FIXME" title="COMMUNITY">COMMUNITY <span class="fas fa-angle-down"></span></a>
+              </li>
+              <li class="nav-li">
+                <a href="#FIXME" title="TRY ANSIBLE TOWER">TRY ANSIBLE TOWER</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+    <!-- Start of main -->
+    <main>
+      <!-- start banner section -->
+      <div class="banner">
+        <div class="slider">
+          <ul class="slider1">
+            <li class="imgs">
+              <img src="assets/images/bannerblue.png" alt="Ansible banner">
+              <div class="wrapper">
+                <div class="bannertext">
+                  <h2>Automation for everyone</h2>
+                  <p>Simplify work, Break down silos. Speed transformation.</p>
+                  <a href="#FIXME" class="getstarted-btn">GET STARTED ></a>
+                  <a href="#FIXME" class="whyansible-btn">WHY ANSIBLE?</a>
+                </div>
+              </div>
+            </li>
+            <li class="imgs">
+              <img src="assets/images/bannergreen.png" alt="Ansible banner">
+            </li>
+            <li class="imgs">
+              <img src="assets/images/bannerpink.png" alt="Ansible banner">
+            </li>
+          </ul>
+
+        </div>
+      </div>
+      <!-- end of banner section -->
+      <!-- start IT Automation section -->
+      <div class="itautomation">
         <div class="wrapper">
-          <h1>
-            <a href="index.html" title="Red Hat Ansible">
-              <img src="assets/images/red-hat-ansible.svg" alt="ANSIBLE">
-            </a>
-          </h1>
-          <div class="hamburger" id="hamfull">
-            <a href="#FIXME" title="Menu" class="hamburger-btn" id="hamburger-btn">
-              <span class="hambar"></span>
-            </a>
-            <nav id="nav">
-              <ul class="nav-ul">
-                <li class="nav-li">
-                  <a href="#FIXME" title="OVERVIEW">OVERVIEW <span class="fas fa-angle-down"></span></a>
-                </li>
-                <li class="nav-li">
-                  <a href="#FIXME" title="PRODUCTS">PRODUCTS <span class="fas fa-angle-down"></span></a>
-                </li>
-                <li class="nav-li">
-                  <a href="#FIXME" title="LEARN">LEARN <span class="fas fa-angle-down"></span></a>
-                </li>
-                <li class="nav-li">
-                  <a href="#FIXME" title="COMMUNITY">COMMUNITY <span class="fas fa-angle-down"></span></a>
-                </li>
-                <li class="nav-li">
-                  <a href="#FIXME" title="TRY ANSIBLE TOWER">TRY ANSIBLE TOWER</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>			
-      </header>
-      <!-- end of header -->
-      <!-- Start of main -->
-      <main>
-        <!-- start banner section -->
-        <div class="banner">
-          <div class="slider">            
-            <ul class="slider1">
-              <li class="imgs">
-                <img src="assets/images/bannerblue.png" alt="Ansible banner">
-                <div class="wrapper">
-                  <div class="bannertext">
-                    <h2>Automation for everyone</h2>
-                    <p>Simplify work, Break down silos. Speed transformation.</p>
-                    <a href="#FIXME" class="getstarted-btn">GET STARTED ></a>
-                    <a href="#FIXME" class="whyansible-btn">WHY ANSIBLE?</a>
-                  </div>
-                </div>                
-              </li>
-              <li class="imgs">
-                <img src="assets/images/bannergreen.png" alt="Ansible banner">
-              </li>
-              <li class="imgs">
-                <img src="assets/images/bannerpink.png" alt="Ansible banner">
-              </li>
-            </ul>
-            
-          </div>
-        </div>
-        <!-- end of banner section -->     
-        <!-- start IT Automation section -->
-        <div class="itautomation">
-          <div class="wrapper">
-            <h3>Simple, agentless IT automation that anyone can use</h3>
-            <p>Ansible is a universal language, unraveling the mystery of how work gets done. Turn tough tasks into repeatable playbooks. Roll out enterprise-wide protocols with the push of a button. Give your team the tools to automate, solve, and share.</p>
-          
-            <ul class="itauto-main-ul">
-              <li>
-                <ul class="itauto-sub-ul">
-                  <li>
-                    <h4>Automate</h4>
-                  </li>
-                  <li>
-                    <p>Deploy apps. Manage systems. Crush complexity.</p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <ul class="itauto-sub-ul">
-                  <li>
-                    <h4>Accelerate</h4>
-                  </li>
-                  <li>
-                    <p>Solve problems once and share the results with everyone.</p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <ul class="itauto-sub-ul">
-                  <li>
-                    <h4>Collaborate</h4>
-                  </li>
-                  <li>
-                    <p>Break down silos, create a culture of automation.</p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <ul class="itauto-sub-ul">
-                  <li>
-                    <h4>Integrate</h4>
-                  </li>
-                  <li>
-                    <p>Automate the technologies you already use.</p>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <a href="#FIXME" class="howansibleworks-link" title="HOW ANSIBLE WORKS">HOW ANSIBLE WORKS ></a>
-            <div class="ansible-prod-int-img">
-              <a href="assets/images/ansible-product-interface_1.webp" data-lightbox="mygallery" data-title="Ansible Product Interface">
-                <img src="assets/images/ansible-product-interface_1.webp" alt="Ansible Product Interface">
-              </a>              
-            </div>
-          </div>
-        </div>
-        <!-- end of IT Automation section -->
-        <!-- start Extend Power section -->
-        <div class="extend-power">
-          <div class="wrapper">
-            <h3>Extend the power of Ansible</h3>
-            <p>Scale automation, manage complex deployments and speed productivity</p>
-            <ul class="extend-power-main-ul">
-              <li class="extend-power-main-li">
-                <ul class="extend-power-sub-ul">
-                  <li>
-                    <img src="assets/images/Ansible_RH_AnsibleTower_RGB_RedWhite.svg" alt="Ansible Tower">
-                  </li>
-                  <li>
-                    <span>Mission control for Ansible</span>
-                  </li>
-                  <li>
-                    <p>Centralized deployments and consistent management of the enterprise</p>
-                  </li>
-                  <li>
-                    <a href="#FIXME" class="learnmore-link" target="_blank" title="LEARN MORE">LEARN MORE</a>
-                  </li>
-                  <li class="cf">
-                    <a href="#FIXME" class="expow-bottom-link" target="_blank" title="FREE TRIAL">FREE TRIAL ></a>
-                  </li>
-                </ul>
-              </li>
-              <li class="extend-power-main-li">
-                <ul class="extend-power-sub-ul">
-                  <li>
-                    <img src="assets/images/Ansible_RH_AnsibleNetworkAutomation_RGB_RedWhite.svg" alt="Ansible Network Automation">
-                  </li>
-                  <li>
-                    <span>Enterprise Ansible for networking</span>
-                  </li>
-                  <li>
-                    <p>Enterprise automation tools for IT networking delivery and management.</p>
-                  </li>
-                  <li>
-                    <a href="#FIXME" class="learnmore-link" target="_blank" title="LEARN MORE">LEARN MORE</a>
-                  </li>
-                  <li class="cf">
-                    <a href="#FIXME" class="expow-bottom-link" target="_blank" title="REQUEST INFO">REQUEST INFO ></a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- end of Extend Power section -->
-        <!-- start autoresmaps(Automate Resources Maps) section -->
-        <div class="autoresmaps">
-          <div class="wrapper">
-            <!-- start Automate area -->
-            <h3>WHAT DO YOU WANT TO AUTOMATE TODAY?</h3>
-            <span class="blueline"></span>
-            <ul class="automate-links-ul">
-              <li>
-                <a href="#FIXME" title="INFRASTRUCTURE">INFRASTRUCTURE</a>
-              </li>
-              <li>
-                <a href="#FIXME" title="APPLICATIONS">APPLICATIONS</a>
-              </li>
-              <li>
-                <a href="#FIXME" title="NETWORKS">NETWORKS</a>
-              </li>
-              <li>
-                <a href="#FIXME" title="CONTAINERS">CONTAINERS</a>
-              </li>
-              <li>
-                <a href="#FIXME" title="SECURITY + COMPLIANCE">SECURITY + COMPLIANCE</a>
-              </li>
-              <li>
-                <a href="#FIXME" title="CLOUD">CLOUD</a>
-              </li>
-            </ul>
-            <!-- end of Automate area -->
-            <!-- start resources area -->
-            <h3>RESOURCES</h3>
-            <span class="blueline"></span>
-            <ul class="resources-tabs-ul">
-              <li class="resources-tabs-li">
-                <ul class="res-forme-ul">
-                  <li>
-                    <h4>FOR ME</h4>
-                  </li>
-                  <li>
-                    <p>
-                      Help me end repeatitive tasks to make time for more strategic work
-                    </p>
-                  </li>
-                  <li>
-                    <a href="#FIXME" class="res-getlink" title="GET THE WHITEPAPER">GET THE WHITEPAPER</a>
-                  </li>
-                  <li>
-                    <a href="assets/images/whitepaper_ansible-in-depth.webp" data-lightbox="resources" data-title="ANSIBLE IN DEPTH">
-                      <img src="assets/images/whitepaper_ansible-in-depth.webp" alt="Ansible in depth" />
-                    </a>                    
-                  </li>
-                </ul>
-              </li>
-              <li class="resources-tabs-li">
-                <ul class="res-formyteam-ul">
-                  <li>
-                    <h4>FOR MY TEAM</h4>
-                  </li>
-                  <li>
-                    <p>
-                      Help me create a culture of collaboration-solve, share, repeat
-                    </p>
-                  </li>
-                  <li>
-                    <a href="#FIXME" class="res-getlink" title="GET THE E-BOOK">GET THE E-BOOK</a>
-                  </li>
-                  <li>
-                    <a href="assets/images/ebook_get-started-with-rh-ansible-tower.webp" data-lightbox="resources" data-title="RED HAT ANSIBLE TOWER">
-                      <img src="assets/images/ebook_get-started-with-rh-ansible-tower.webp" alt="Get started with RED HAT Ansible Tower" />
-                    </a>                    
-                  </li>
-                </ul>
-              </li>
-              <li class="resources-tabs-li">
-                <ul class="res-formyorg-ul">
-                  <li>
-                    <h4>FOR MY ORGANIZATION</h4>
-                  </li>
-                  <li>
-                    <p>
-                      Help me improve efficiency across my entire enterprise
-                    </p>
-                  </li>
-                  <li>
-                    <a href="#FIXME" class="res-getlink" title="GET THE REPORT">GET THE REPORT</a>
-                  </li>
-                  <li>
-                    <a href="assets/images/report_total-economic-impact-of-rh-ansible-tower.webp" data-lightbox="resources" data-title="ANSIBLE ECONOMIC IMPACT">
-                      <img src="assets/images/report_total-economic-impact-of-rh-ansible-tower.webp" alt="Ansible economic impact" />
-                    </a>                    
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <!-- end of resources area -->
-            <!-- start web training maps area -->
-            <ul class="web-training-maps-ul">
-              <!-- WEBINARS AND TRAINING -->
-              <li class="web-training-maps-li">
-                <ul class="webtrain-ul">
-                  <li>
-                    <h4>WEBINARS AND TRAINING</h4>
-                    <span class="blueline"></span>
-                  </li>
-                  <li>
-                    <ul class="arrowinfo-ul">
-                      <li class="arrowinfo-li"><span class="blacktext">></span></li>
-                      <li class="arrowinfo-li">
-                        <ul class="info-ul">
-                          <li>
-                            <p class="blacktext">Ansible Essentials</p>
-                          </li>
-                          <li>
-                            <p class="greytext"><span class="fas fa-gift"></span> Thu, Dec 13, 10-11.30AM EST</p>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <ul class="arrowinfo-ul">
-                      <li class="arrowinfo-li"><span class="blacktext">></span></li>
-                      <li class="arrowinfo-li">
-                        <ul class="info-ul">
-                          <li>
-                            <p class="blacktext">Intent-based Network Load Balancer Automation and Ansible</p>
-                          </li>
-                          <li>
-                            <p class="greytext"><span class="fas fa-gift"></span> Thu, Dec 13, 10-11.30AM EST</p>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <ul class="arrowinfo-ul">
-                      <li class="arrowinfo-li"><span class="blacktext">></span></li>
-                      <li class="arrowinfo-li">
-                        <ul class="info-ul">
-                          <li>
-                            <p class="blacktext">Move Toward Simper Automation with Abstraction Using Ansible Roles and F5 Automation Toolchain</p>
-                          </li>
-                          <li>
-                            <p class="greytext"><span class="fas fa-gift"></span> Thu, Dec 13, 10-11.30AM EST</p>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#FIXME" class="mapsec-blue-link" title="ALL WEBINARS" >> ALL WEBINARS</a>
-                  </li>
-                </ul>
-              </li>
-              <!-- UPCOMING EVENTS -->
-              <li class="web-training-maps-li">
-                <ul class="upevents-ul">
-                  <li>
-                    <h4>UPCOMING EVENTS</h4>
-                    <span class="blueline"></span>
-                  </li>
-                  <li>
-                    <ul class="arrowinfo-ul">
-                      <li class="arrowinfo-li"><span class="blacktext">></span></li>
-                      <li class="arrowinfo-li">
-                        <ul class="info-ul">
-                          <li>
-                            <p class="blacktext">Ansible Automation Technical Workshop</p>
-                          </li>
-                          <li>
-                            <div class="Lightbox-data">
-                              <div class="opendata">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412184.0480746719!2d-87.06612470048995!3d36.18631242500918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8864ec3213eb903d%3A0x7d3fb9d0a1e9daa0!2sNashville%2C+TN%2C+USA!5e0!3m2!1sen!2sin!4v1548317816728"
-                                  width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                <h2>Category Map</h2>
-                                <h3>Place: Nashville, Tn</h3>
-                                <p class="greytext imgmod"><span class="fas fa-map-marker-alt"></span> Nashville, TN</p>                                
-                              </div>
-                              <div class="modalImage" id="openMod">
-                                <span class="close" id="closebtn">&times;</span>
-                                <div id="modDisplay"></div>
-                              </div>
-                            </div>
-                            <p class="greytext"><span class="fas fa-gift"></span> Dec 11, 2018</p>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <ul class="arrowinfo-ul">
-                      <li class="arrowinfo-li"><span class="blacktext">></span></li>
-                      <li class="arrowinfo-li">
-                        <ul class="info-ul">
-                          <li>
-                            <p class="blacktext">Ansible Automation Technical Workshop</p>
-                          </li>
-                          <li>
-                            <div class="Lightbox-data">
-                              <div class="opendata">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3156706536!2d-74.26055748786443!3d40.69714774429399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1548325773538"
-                                  width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                <h2>Category Map</h2>
-                                <h3>Place: New York City, NY</h3>
-                                <p class="greytext imgmod"><span class="fas fa-map-marker-alt"></span> New York City, NY</p>
-                              </div>                              
-                            </div>
-                            <p class="greytext"><span class="fas fa-gift"></span> Jan 10, 2019</p>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#FIXME" class="mapsec-blue-link" title="ALL EVENTS">> ALL EVENTS</a>
-                  </li>
-                </ul>
-              </li>
-              <!-- PRESS -->
-              <li class="web-training-maps-li">
-                <ul class="press-ul">
-                  <li>
-                    <h4>PRESS</h4>
-                    <span class="blueline"></span>
-                  </li>
-                  <li>
-                    <ul class="arrowinfo-ul">
-                      <li class="arrowinfo-li"><span class="blacktext">></span></li>
-                      <li class="arrowinfo-li">
-                        <ul class="info-ul">
-                          <li>
-                            <p class="blacktext">IBM to Acquire Red Hat, Completely Changing the Cloud Landscape and becoming World's #1 Hybrid Cloud Provider</p>
-                          </li>                          
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <ul class="arrowinfo-ul">
-                      <li class="arrowinfo-li"><span class="blacktext">></span></li>
-                      <li class="arrowinfo-li">
-                        <ul class="info-ul">
-                          <li>
-                            <p class="blacktext">Red Hat Drives Security Orchestration and Automation with New Ansible Capabilities</p>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#FIXME" class="mapsec-blue-link" title="ALL PRESS">> ALL PRESS</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <!-- end of web training maps area -->
-          </div>
-        </div>
-        <!-- end of autoresmaps(Automate Resources Maps) section -->
-        <!-- start from blog section -->
-        <div class="fromblog">
-          <div class="wrapper">
-            <h3>FROM OUR BLOG</h3>
-            <span class="whiteline"></span>
-            <ul class="blog-articles-ul">
-              <li class="blog-articles-li">
-                <ul class="adammiller-ul">
-                  <li class="adammiller-li">
-                    <h4>Integrating Ansible and Red Hat Enterprise Linux 8 Beta</h4>
-                  </li>
-                  <li class="adammiller-li">
-                    <ul class="blog-userinfo-ul">
-                      <li>
-                        <img src="assets/images/Adam-Miller.webp" alt="Adam Miller">
-                      </li>
-                      <li>
-                        <p class="username">BY ADAM MILLER</p>                        
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="blog-articles-li">
-                <ul class="bpleines-ul">
-                  <li class="bpleines-li">
-                    <h4>Integrating Ansible and Red Hat Enterprise Linux 8 Beta</h4>
-                  </li>
-                  <li class="bpleines-li">
-                    <ul class="blog-userinfo-ul">
-                      <li>
-                        <img src="assets/images/BrandenPleins.webp" alt="Branden Pleins">
-                      </li>
-                      <li>
-                        <p class="username">BY BRANDEN PLEINES</p>                        
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <a href="#FIXME" class="visitbloglink" target="_blank" title="Visit Our Blog">VISIT OUR BLOG ></a>
-          </div>
-        </div>
-        <!-- end of from blog section -->
-        <!-- start subfooter section -->
-        <div class="subfooter">
-          <div class="wrapper">
-            <div class="leftside-subf">
-              <ul class="flinksrow1-ul">
-                <li class="flinksrow1-li">
-                  <h4>QUICK LINKS</h4>
-                  <ul class="footlinks-ul">
-                    <li>
-                      <a href="#FIXME" title="Why Ansible?">Why Ansible?</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="How Ansible Works">How Ansible Works</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Ansible for DevOps">Ansible for DevOps</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Network Automation">Network Automation</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Ansible Support">Ansible Support</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Contact Us">Contact Us</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="flinksrow1-li">
-                  <h4>PRODUCTS</h4>
-                  <ul class="footlinks-ul">
-                    <li>
-                      <a href="#FIXME" title="Ansible Tower">Ansible Tower</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Try Ansible Tower free">Try Ansible Tower free</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Network Automation">Network Automation</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Training &amp; Certification">Training &amp; Certification</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Consulting for Ansible">Consulting for Ansible</a>
-                    </li>                    
-                  </ul>
-                </li>
-                <li class="flinksrow1-li">
-                  <h4>USE CASES</h4>
-                  <ul class="footlinks-ul">
-                    <li>
-                      <a href="#FIXME" title="Provisioning">Provisioning</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Config Management">Config Management</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="App Deployment">App Deployment</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Continuour Delivery">Continuour Delivery</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Security &amp; Compliance">Security &amp; Compliance</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Orchestration">Orchestration</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="flinksrow1-li">
-                  <h4>INTEGRATIONS</h4>
-                  <ul class="footlinks-ul">
-                    <li>
-                      <a href="#FIXME" title="Infrastructure">Infrastructure</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Networks">Networks</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Containers">Containers</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Cloud">Cloud</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="DevOps Tools">DevOps Tools</a>
-                    </li>                    
-                  </ul>
-                </li>
-              </ul>
-              <ul class="flinksrow2-ul">
-                <li class="flinksrow2-li">
-                  <h4>RESOURCES</h4>
-                  <ul class="footlinks-ul">
-                    <li>
-                      <a href="#FIXME" title="Quick Start Guide">Quick Start Guide</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Videos">Videos</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Webinars &amp; Training">Webinars &amp; Training</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="E-books">E-books</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Whitepapers">Whitepapers</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Case studies">Case studies</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Partners">Partners</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="flinksrow2-li">
-                  <h4>COMMUNITY</h4>
-                  <ul class="footlinks-ul">
-                    <li>
-                      <a href="#FIXME" title="Upcoming Events">Upcoming Events</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="AnsibleFest">AnsibleFest</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Ansible on Meetup">Ansible on Meetup</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Ansible on Github">Ansible on Github</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="AWX on GitHub">AWX on GitHub</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="flinksrow2-li">
-                  <h4>RELATED SITES</h4>
-                  <ul class="footlinks-ul">
-                    <li>
-                      <a href="#FIXME" title="Ansible Docs">Ansible Docs</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Ansible Galaxy">Ansible Galaxy</a>
-                    </li>
-                    <li>
-                      <a href="#FIXME" title="Ansible Blog">Ansible Blog</a>
-                    </li>                    
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div class="rightside-subf">
-              <h3>RED HAT ANSIBLE</h3>
-              <p>Ansible is an open source community project sponsored by Red Hat, it's the simplest way to automate IT. Ansible is the only automation language that can be used across entire IT teams from systems and network administrators to developers and managers.</p>
-              <ul class="rightsubf-ul1">
-                <li>
-                  <a href="#FIXME" title="About Us">About Us</a>
-                </li>
-                <li>
-                  <a href="#FIXME" title="Our Story">Our Story</a>
-                </li>
-                <li>
-                  <a href="#FIXME" title="Press Center">Press Center</a>
-                </li>
-                <li>
-                  <a href="#FIXME" title="Careers">Careers</a>
-                </li>
-              </ul>
-              <ul class="sociallinks">
-                <li>
-                  <a href="#FIXME" class="fab fa-twitter" title="Twitter" target="_blank"></a>
-                </li>
-                <li>
-                  <a href="#FIXME" class="fab fa-facebook-f" title="Facebook" target="_blank"></a>
-                </li>
-                <li>
-                  <a href="#FIXME" class="fab fa-linkedin-in" title="Linkedin" target="_blank"></a>
-                </li>
-                <li>
-                  <a href="#FIXME" class="fab fa-github" title="Github" target="_blank"></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- end of subfooter section -->
-      </main>
-      <!-- End of main -->
-      <!-- start of footer -->
-      <footer>
-        <div class="wrapper">
-          <h5>
-            <a href="index.html" title="Red Hat">        
-              <img src="assets/images/redhat_logo.svg" alt="Red Hat">
-            </a>
-          </h5>
-          <p>Copyright &copy; 2018 Red Hat, Inc.</p>
-          <ul class="footerlinks">
+          <h3>Simple, agentless IT automation that anyone can use</h3>
+          <p>Ansible is a universal language, unraveling the mystery of how work gets done. Turn tough tasks into
+            repeatable playbooks. Roll out enterprise-wide protocols with the push of a button. Give your team the
+            tools to automate, solve, and share.</p>
+
+          <ul class="itauto-main-ul">
             <li>
-              <a href="#FIXME" title="Privacy statement" target="_blank">Privacy statement</a>
+              <ul class="itauto-sub-ul">
+                <li>
+                  <h4>Automate</h4>
+                </li>
+                <li>
+                  <p>Deploy apps. Manage systems. Crush complexity.</p>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href="#FIXME" title="Security disclosure" target="_blank">Security disclosure</a>
+              <ul class="itauto-sub-ul">
+                <li>
+                  <h4>Accelerate</h4>
+                </li>
+                <li>
+                  <p>Solve problems once and share the results with everyone.</p>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href="#FIXME" title="All policies and guidelines" target="_blank">All policies and guidelines</a>
+              <ul class="itauto-sub-ul">
+                <li>
+                  <h4>Collaborate</h4>
+                </li>
+                <li>
+                  <p>Break down silos, create a culture of automation.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul class="itauto-sub-ul">
+                <li>
+                  <h4>Integrate</h4>
+                </li>
+                <li>
+                  <p>Automate the technologies you already use.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <a href="#FIXME" class="howansibleworks-link" title="HOW ANSIBLE WORKS">HOW ANSIBLE WORKS ></a>
+          <div class="ansible-prod-int-img">
+            <a href="assets/images/ansible-product-interface_1.webp" data-lightbox="mygallery" data-title="Ansible Product Interface">
+              <img src="assets/images/ansible-product-interface_1.webp" alt="Ansible Product Interface">
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end of IT Automation section -->
+      <!-- start Extend Power section -->
+      <div class="extend-power">
+        <div class="wrapper">
+          <h3>Extend the power of Ansible</h3>
+          <p>Scale automation, manage complex deployments and speed productivity</p>
+          <ul class="extend-power-main-ul">
+            <li class="extend-power-main-li">
+              <ul class="extend-power-sub-ul">
+                <li>
+                  <img src="assets/images/Ansible_RH_AnsibleTower_RGB_RedWhite.svg" alt="Ansible Tower">
+                </li>
+                <li>
+                  <span>Mission control for Ansible</span>
+                </li>
+                <li>
+                  <p>Centralized deployments and consistent management of the enterprise</p>
+                </li>
+                <li>
+                  <a href="#FIXME" class="learnmore-link" target="_blank" title="LEARN MORE">LEARN MORE</a>
+                </li>
+                <li class="cf">
+                  <a href="#FIXME" class="expow-bottom-link" target="_blank" title="FREE TRIAL">FREE TRIAL ></a>
+                </li>
+              </ul>
+            </li>
+            <li class="extend-power-main-li">
+              <ul class="extend-power-sub-ul">
+                <li>
+                  <img src="assets/images/Ansible_RH_AnsibleNetworkAutomation_RGB_RedWhite.svg" alt="Ansible Network Automation">
+                </li>
+                <li>
+                  <span>Enterprise Ansible for networking</span>
+                </li>
+                <li>
+                  <p>Enterprise automation tools for IT networking delivery and management.</p>
+                </li>
+                <li>
+                  <a href="#FIXME" class="learnmore-link" target="_blank" title="LEARN MORE">LEARN MORE</a>
+                </li>
+                <li class="cf">
+                  <a href="#FIXME" class="expow-bottom-link" target="_blank" title="REQUEST INFO">REQUEST INFO ></a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
-      </footer>
-      <!-- end of footer -->
-    </div>
-    <script src="assets/vendor/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
-    <script src="assets/vendor/jquery-1.8.3.min.js"></script>
-    <script src="assets/vendor/slick/slick.min.js"></script>
-    <script src="assets/js/script.js"></script>
-  </body>
-  </html>
+      </div>
+      <!-- end of Extend Power section -->
+      <!-- start autoresmaps(Automate Resources Maps) section -->
+      <div class="autoresmaps">
+        <div class="wrapper">
+          <!-- start Automate area -->
+          <h3>WHAT DO YOU WANT TO AUTOMATE TODAY?</h3>
+          <span class="blueline"></span>
+          <ul class="automate-links-ul">
+            <li>
+              <a href="#FIXME" title="INFRASTRUCTURE">INFRASTRUCTURE</a>
+            </li>
+            <li>
+              <a href="#FIXME" title="APPLICATIONS">APPLICATIONS</a>
+            </li>
+            <li>
+              <a href="#FIXME" title="NETWORKS">NETWORKS</a>
+            </li>
+            <li>
+              <a href="#FIXME" title="CONTAINERS">CONTAINERS</a>
+            </li>
+            <li>
+              <a href="#FIXME" title="SECURITY + COMPLIANCE">SECURITY + COMPLIANCE</a>
+            </li>
+            <li>
+              <a href="#FIXME" title="CLOUD">CLOUD</a>
+            </li>
+          </ul>
+          <!-- end of Automate area -->
+          <!-- start resources area -->
+          <h3>RESOURCES</h3>
+          <span class="blueline"></span>
+          <ul class="resources-tabs-ul">
+            <li class="resources-tabs-li">
+              <ul class="res-forme-ul">
+                <li>
+                  <h4>FOR ME</h4>
+                </li>
+                <li>
+                  <p>
+                    Help me end repeatitive tasks to make time for more strategic work
+                  </p>
+                </li>
+                <li>
+                  <a href="#FIXME" class="res-getlink" title="GET THE WHITEPAPER">GET THE WHITEPAPER</a>
+                </li>
+                <li>
+                  <a href="assets/images/whitepaper_ansible-in-depth.webp" data-lightbox="resources" data-title="ANSIBLE IN DEPTH">
+                    <img src="assets/images/whitepaper_ansible-in-depth.webp" alt="Ansible in depth" />
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="resources-tabs-li">
+              <ul class="res-formyteam-ul">
+                <li>
+                  <h4>FOR MY TEAM</h4>
+                </li>
+                <li>
+                  <p>
+                    Help me create a culture of collaboration-solve, share, repeat
+                  </p>
+                </li>
+                <li>
+                  <a href="#FIXME" class="res-getlink" title="GET THE E-BOOK">GET THE E-BOOK</a>
+                </li>
+                <li>
+                  <a href="assets/images/ebook_get-started-with-rh-ansible-tower.webp" data-lightbox="resources"
+                    data-title="RED HAT ANSIBLE TOWER">
+                    <img src="assets/images/ebook_get-started-with-rh-ansible-tower.webp" alt="Get started with RED HAT Ansible Tower" />
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="resources-tabs-li">
+              <ul class="res-formyorg-ul">
+                <li>
+                  <h4>FOR MY ORGANIZATION</h4>
+                </li>
+                <li>
+                  <p>
+                    Help me improve efficiency across my entire enterprise
+                  </p>
+                </li>
+                <li>
+                  <a href="#FIXME" class="res-getlink" title="GET THE REPORT">GET THE REPORT</a>
+                </li>
+                <li>
+                  <a href="assets/images/report_total-economic-impact-of-rh-ansible-tower.webp" data-lightbox="resources"
+                    data-title="ANSIBLE ECONOMIC IMPACT">
+                    <img src="assets/images/report_total-economic-impact-of-rh-ansible-tower.webp" alt="Ansible economic impact" />
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- end of resources area -->
+          <!-- start web training maps area -->
+          <ul class="web-training-maps-ul">
+            <!-- WEBINARS AND TRAINING -->
+            <li class="web-training-maps-li">
+              <ul class="webtrain-ul">
+                <li>
+                  <h4>WEBINARS AND TRAINING</h4>
+                  <span class="blueline"></span>
+                </li>
+                <li>
+                  <ul class="arrowinfo-ul">
+                    <li class="arrowinfo-li"><span class="blacktext">></span></li>
+                    <li class="arrowinfo-li">
+                      <ul class="info-ul">
+                        <li>
+                          <p class="blacktext">Ansible Essentials</p>
+                        </li>
+                        <li>
+                          <p class="greytext"><span class="fas fa-gift"></span> Thu, Dec 13, 10-11.30AM EST</p>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="arrowinfo-ul">
+                    <li class="arrowinfo-li"><span class="blacktext">></span></li>
+                    <li class="arrowinfo-li">
+                      <ul class="info-ul">
+                        <li>
+                          <p class="blacktext">Intent-based Network Load Balancer Automation and Ansible</p>
+                        </li>
+                        <li>
+                          <p class="greytext"><span class="fas fa-gift"></span> Thu, Dec 13, 10-11.30AM EST</p>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="arrowinfo-ul">
+                    <li class="arrowinfo-li"><span class="blacktext">></span></li>
+                    <li class="arrowinfo-li">
+                      <ul class="info-ul">
+                        <li>
+                          <p class="blacktext">Move Toward Simper Automation with Abstraction Using Ansible Roles and
+                            F5 Automation Toolchain</p>
+                        </li>
+                        <li>
+                          <p class="greytext"><span class="fas fa-gift"></span> Thu, Dec 13, 10-11.30AM EST</p>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#FIXME" class="mapsec-blue-link" title="ALL WEBINARS">> ALL WEBINARS</a>
+                </li>
+              </ul>
+            </li>
+            <!-- UPCOMING EVENTS -->
+            <li class="web-training-maps-li">
+              <ul class="upevents-ul">
+                <li>
+                  <h4>UPCOMING EVENTS</h4>
+                  <span class="blueline"></span>
+                </li>
+                <li>
+                  <ul class="arrowinfo-ul">
+                    <li class="arrowinfo-li"><span class="blacktext">></span></li>
+                    <li class="arrowinfo-li">
+                      <ul class="info-ul">
+                        <li>
+                          <p class="blacktext">Ansible Automation Technical Workshop</p>
+                        </li>
+                        <li>
+                          <div class="Lightbox-data">
+                            <div class="opendata">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412184.0480746719!2d-87.06612470048995!3d36.18631242500918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8864ec3213eb903d%3A0x7d3fb9d0a1e9daa0!2sNashville%2C+TN%2C+USA!5e0!3m2!1sen!2sin!4v1548317816728"
+                                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                              <h2 class="maph2">Map Lightbox</h2>
+                              <h3 class="maph3">Place: Nashville, Tn</h3>
+                              <p class="greytext imgmod"><span class="fas fa-map-marker-alt"></span> Nashville, TN</p>
+                            </div>
+                            <div class="modalImage" id="openMod">
+                              <span class="close" id="closebtn">&times;</span>
+                              <div id="modDisplay"></div>
+                            </div>
+                          </div>
+                          <p class="greytext"><span class="fas fa-gift"></span> Dec 11, 2018</p>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="arrowinfo-ul">
+                    <li class="arrowinfo-li"><span class="blacktext">></span></li>
+                    <li class="arrowinfo-li">
+                      <ul class="info-ul">
+                        <li>
+                          <p class="blacktext">Ansible Automation Technical Workshop</p>
+                        </li>
+                        <li>
+                          <div class="Lightbox-data">
+                            <div class="opendata">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3156706536!2d-74.26055748786443!3d40.69714774429399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1548325773538"
+                                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                              <h2 class="maph2">Map Lightbox</h2>
+                              <h3 class="maph3">Place: New York City, NY</h3>
+                              <p class="greytext imgmod"><span class="fas fa-map-marker-alt"></span> New York City, NY</p>
+                            </div>
+                          </div>
+                          <p class="greytext"><span class="fas fa-gift"></span> Jan 10, 2019</p>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#FIXME" class="mapsec-blue-link" title="ALL EVENTS">> ALL EVENTS</a>
+                </li>
+              </ul>
+            </li>
+            <!-- PRESS -->
+            <li class="web-training-maps-li">
+              <ul class="press-ul">
+                <li>
+                  <h4>PRESS</h4>
+                  <span class="blueline"></span>
+                </li>
+                <li>
+                  <ul class="arrowinfo-ul">
+                    <li class="arrowinfo-li"><span class="blacktext">></span></li>
+                    <li class="arrowinfo-li">
+                      <ul class="info-ul">
+                        <li>
+                          <p class="blacktext">IBM to Acquire Red Hat, Completely Changing the Cloud Landscape and
+                            becoming World's #1 Hybrid Cloud Provider</p>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="arrowinfo-ul">
+                    <li class="arrowinfo-li"><span class="blacktext">></span></li>
+                    <li class="arrowinfo-li">
+                      <ul class="info-ul">
+                        <li>
+                          <p class="blacktext">Red Hat Drives Security Orchestration and Automation with New Ansible
+                            Capabilities</p>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#FIXME" class="mapsec-blue-link" title="ALL PRESS">> ALL PRESS</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- end of web training maps area -->
+        </div>
+      </div>
+      <!-- end of autoresmaps(Automate Resources Maps) section -->
+      <!-- start from blog section -->
+      <div class="fromblog">
+        <div class="wrapper">
+          <h3>FROM OUR BLOG</h3>
+          <span class="whiteline"></span>
+          <ul class="blog-articles-ul">
+            <li class="blog-articles-li">
+              <ul class="adammiller-ul">
+                <li class="adammiller-li">
+                  <h4>Integrating Ansible and Red Hat Enterprise Linux 8 Beta</h4>
+                </li>
+                <li class="adammiller-li">
+                  <ul class="blog-userinfo-ul">
+                    <li>
+                      <img src="assets/images/Adam-Miller.webp" alt="Adam Miller">
+                    </li>
+                    <li>
+                      <p class="username">BY ADAM MILLER</p>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="blog-articles-li">
+              <ul class="bpleines-ul">
+                <li class="bpleines-li">
+                  <h4>Integrating Ansible and Red Hat Enterprise Linux 8 Beta</h4>
+                </li>
+                <li class="bpleines-li">
+                  <ul class="blog-userinfo-ul">
+                    <li>
+                      <img src="assets/images/BrandenPleins.webp" alt="Branden Pleins">
+                    </li>
+                    <li>
+                      <p class="username">BY BRANDEN PLEINES</p>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <a href="#FIXME" class="visitbloglink" target="_blank" title="Visit Our Blog">VISIT OUR BLOG ></a>
+        </div>
+      </div>
+      <!-- end of from blog section -->
+      <!-- start subfooter section -->
+      <div class="subfooter">
+        <div class="wrapper">
+          <div class="leftside-subf">
+            <ul class="flinksrow1-ul">
+              <li class="flinksrow1-li">
+                <h4>QUICK LINKS</h4>
+                <ul class="footlinks-ul">
+                  <li>
+                    <a href="#FIXME" title="Why Ansible?">Why Ansible?</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="How Ansible Works">How Ansible Works</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Ansible for DevOps">Ansible for DevOps</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Network Automation">Network Automation</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Ansible Support">Ansible Support</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Contact Us">Contact Us</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="flinksrow1-li">
+                <h4>PRODUCTS</h4>
+                <ul class="footlinks-ul">
+                  <li>
+                    <a href="#FIXME" title="Ansible Tower">Ansible Tower</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Try Ansible Tower free">Try Ansible Tower free</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Network Automation">Network Automation</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Training &amp; Certification">Training &amp; Certification</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Consulting for Ansible">Consulting for Ansible</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="flinksrow1-li">
+                <h4>USE CASES</h4>
+                <ul class="footlinks-ul">
+                  <li>
+                    <a href="#FIXME" title="Provisioning">Provisioning</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Config Management">Config Management</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="App Deployment">App Deployment</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Continuour Delivery">Continuour Delivery</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Security &amp; Compliance">Security &amp; Compliance</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Orchestration">Orchestration</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="flinksrow1-li">
+                <h4>INTEGRATIONS</h4>
+                <ul class="footlinks-ul">
+                  <li>
+                    <a href="#FIXME" title="Infrastructure">Infrastructure</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Networks">Networks</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Containers">Containers</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Cloud">Cloud</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="DevOps Tools">DevOps Tools</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="flinksrow2-ul">
+              <li class="flinksrow2-li">
+                <h4>RESOURCES</h4>
+                <ul class="footlinks-ul">
+                  <li>
+                    <a href="#FIXME" title="Quick Start Guide">Quick Start Guide</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Videos">Videos</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Webinars &amp; Training">Webinars &amp; Training</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="E-books">E-books</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Whitepapers">Whitepapers</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Case studies">Case studies</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Partners">Partners</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="flinksrow2-li">
+                <h4>COMMUNITY</h4>
+                <ul class="footlinks-ul">
+                  <li>
+                    <a href="#FIXME" title="Upcoming Events">Upcoming Events</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="AnsibleFest">AnsibleFest</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Ansible on Meetup">Ansible on Meetup</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Ansible on Github">Ansible on Github</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="AWX on GitHub">AWX on GitHub</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="flinksrow2-li">
+                <h4>RELATED SITES</h4>
+                <ul class="footlinks-ul">
+                  <li>
+                    <a href="#FIXME" title="Ansible Docs">Ansible Docs</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Ansible Galaxy">Ansible Galaxy</a>
+                  </li>
+                  <li>
+                    <a href="#FIXME" title="Ansible Blog">Ansible Blog</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="rightside-subf">
+            <h3>RED HAT ANSIBLE</h3>
+            <p>Ansible is an open source community project sponsored by Red Hat, it's the simplest way to automate IT.
+              Ansible is the only automation language that can be used across entire IT teams from systems and network
+              administrators to developers and managers.</p>
+            <ul class="rightsubf-ul1">
+              <li>
+                <a href="#FIXME" title="About Us">About Us</a>
+              </li>
+              <li>
+                <a href="#FIXME" title="Our Story">Our Story</a>
+              </li>
+              <li>
+                <a href="#FIXME" title="Press Center">Press Center</a>
+              </li>
+              <li>
+                <a href="#FIXME" title="Careers">Careers</a>
+              </li>
+            </ul>
+            <ul class="sociallinks">
+              <li>
+                <a href="#FIXME" class="fab fa-twitter" title="Twitter" target="_blank"></a>
+              </li>
+              <li>
+                <a href="#FIXME" class="fab fa-facebook-f" title="Facebook" target="_blank"></a>
+              </li>
+              <li>
+                <a href="#FIXME" class="fab fa-linkedin-in" title="Linkedin" target="_blank"></a>
+              </li>
+              <li>
+                <a href="#FIXME" class="fab fa-github" title="Github" target="_blank"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- end of subfooter section -->
+    </main>
+    <!-- End of main -->
+    <!-- start of footer -->
+    <footer>
+      <div class="wrapper">
+        <h5>
+          <a href="index.html" title="Red Hat">
+            <img src="assets/images/redhat_logo.svg" alt="Red Hat">
+          </a>
+        </h5>
+        <p>Copyright &copy; 2018 Red Hat, Inc.</p>
+        <ul class="footerlinks">
+          <li>
+            <a href="#FIXME" title="Privacy statement" target="_blank">Privacy statement</a>
+          </li>
+          <li>
+            <a href="#FIXME" title="Security disclosure" target="_blank">Security disclosure</a>
+          </li>
+          <li>
+            <a href="#FIXME" title="All policies and guidelines" target="_blank">All policies and guidelines</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- end of footer -->
+  </div>
+  <script src="assets/vendor/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
+  <script src="assets/vendor/jquery-1.8.3.min.js"></script>
+  <script src="assets/vendor/slick/slick.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
